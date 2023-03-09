@@ -9,6 +9,7 @@ This simple application is a text editor! Simply use it as you would any other. 
 Edit your text directly in the browser or click the "Install!" button and install the application straight to your local computer for use offline.
 
 ![homepage photo](/homepage.png)
+![install photo](/install.jpg)
 
 ## Link
 
