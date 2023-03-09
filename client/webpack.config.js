@@ -32,6 +32,8 @@ module.exports = () => {
         inject: true,
         name: 'text editor',
         short_name: 'editor',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         description: '',
         start_url: './',
         publicPath: './',
@@ -62,7 +64,11 @@ module.exports = () => {
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
           },
-        },        
+        },    
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: "asset/resource",
+        },    
       ],
     },
   };
